@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+    background-color: #FE7276;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    direction: rtl;
+}
+
+body {
+    padding-bottom: 40px;
+    overflow: scroll;
+}
+
+#root {
+    position: relative;
+}
+
+#root .buttons-container {
+    padding: 10px;
+    padding-top: 160px;
+    display: none;
+}
+
+#root .buttons-container.visible {
+    display: block;
+}
+
+#root .main-title-container {
+    position: fixed;
+    width: 100%;
+    background-color: #FE7276;
+    height: 160px;
+    padding-top: 30px;
+}
+
+#root .main-title {
+    font-size: 42px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#root .main-subtitle {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#root .modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease-in-out;
+    padding: 10px;
+}
+
+#root .modal.visible {
+    opacity: 1;
+    pointer-events: all;
+}
+
+#root .open-modal-button {
+    background-color: yellow;
+    height: 300px;
+}
+
+#root .close-modal-button {
+    background-color: yellow;
+    height: 300px;
+}
+
+#root .button {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root .modal .title {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+}
+
+#root .modal .body {
+    font-size: 20px;
+    text-align: center;
+}
+
+#root .modal .image {
+    height: 360px;
+    width: 360px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 20px;
+}
