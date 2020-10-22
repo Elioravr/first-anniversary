@@ -21,7 +21,7 @@ body {
 
 #root .buttons-container {
     padding: 10px;
-    padding-top: 160px;
+    padding-top: 130px;
     display: none;
 }
 
@@ -33,8 +33,8 @@ body {
     position: fixed;
     width: 100%;
     background-color: #FE7276;
-    height: 160px;
-    padding-top: 30px;
+    height: 130px;
+    /* padding-top: 30px; */
 }
 
 #root .main-title {
@@ -118,4 +118,10 @@ body {
     background-position: center;
     margin: auto;
     margin-top: 20px;
+}
+
+#root .footer {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
 }
