@@ -72,7 +72,9 @@ class App {
     }
 
     setModalContent(title, body, image) {
-        this.modalTitle.innerHTML = title;
+        const composedModalTitle = title.split('+').join('</br>');
+
+        this.modalTitle.innerHTML = composedModalTitle;
         this.modalBody.innerHTML = body;
         this.modalImage.style.backgroundImage = `url(${image})`;
     }

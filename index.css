@@ -109,19 +109,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 42px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 10px;
 }
 
 #root .modal .body {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
 #root .modal .image {
-    height: 360px;
-    width: 360px;
+    height: 250px;
     background-size: cover;
     background-position: center;
     margin: auto;
