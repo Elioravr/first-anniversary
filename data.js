@@ -13,25 +13,25 @@ const data = {
             "modalBody": "התשובה הצינית היא שלא הרגשתי שום הבדל. נגמר האירוע, שהיה הערב הכי מטורף שהיה לנו בחיים, ואז חזרנו לחיים הנורמליים שלנו. אבל זה לא לגמרי מדויק.+מאז החתונה שלנו יש תחושה קצת אחרת. יש תחושה שכל העולם יודע שאנחנו מעכשיו גוף אחד, שאנחנו מתכוונים להקים משפחה ולהישאר יחד כל עוד אנחנו חיים, שאנחנו כאן כדי להילחם בקשיים, לא לוותר גם כשהכי קשה, לצמוח ולהפוך את האהבה שלנו להישגים מהותיים כמו בית וילדים.+בעיני זה ענק, ולקום עם התחושה הזאת ליד האישה שאת בכל יום - זה להיות בעלך."
         },
         "3": {
-            "background": "images/Dance_0007.jpeg",
+            "background": "images/Ceremony_0130.jpeg",
             "buttonText": "מה זה?",
             "modalTitle": "זאת אפליקציה לכבודך",
             "modalBody": "כי אני אוהב אותך מאוד"
         },
         "4": {
-            "background": "images/Dance_0007.jpeg",
+            "background": "images/Preparations_0130.jpeg",
             "buttonText": "מה זה?",
             "modalTitle": "זאת אפליקציה לכבודך",
             "modalBody": "כי אני אוהב אותך מאוד"
         },
         "5": {
-            "background": "images/Dance_0007.jpeg",
+            "background": "images/Book_0045.jpeg",
             "buttonText": "מה זה?",
             "modalTitle": "זאת אפליקציה לכבודך",
             "modalBody": "כי אני אוהב אותך מאוד"
         },
         "6": {
-            "background": "images/Dance_0007.jpeg",
+            "background": "images/Book_0003.jpeg",
             "buttonText": "מה זה?",
             "modalTitle": "זאת אפליקציה לכבודך",
             "modalBody": "כי אני אוהב אותך מאוד"
