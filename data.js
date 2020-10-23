@@ -5,6 +5,7 @@ const data = {
             "buttonText": "מה זה הדבר הזה?",
             "modalTitle": "מה זה הדבר הזה?",
             "modalBody": "אז ככה, אנחנו נשואים היום בדיוק שנה, וזאת הייתה שנת קורונה. אין דרך אחרת להגיד את זה - הזמן עצר, ואיתו, גם היכולת שלי להמציא את עצמי מחדש.+אז מה כן אפשר לעשות? אפליקציה! ריכזתי עבורך את כל מה שלמדתי עלייך בשנה הראשונה לנישואין שלנו.+תתכונני לחפירה!+שלך, בעלך. ❤️",
+            "video": '<iframe src="https://player.vimeo.com/video/382205120" width="100%" height="250" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
         },
         "2": {
             "background": "images/Dance_0090.jpeg",

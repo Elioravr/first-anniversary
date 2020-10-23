@@ -30,7 +30,7 @@ class App {
 
     initButtons() {
         Object.keys(data.buttons).forEach(key => {
-            const {buttonText, background, modalTitle, modalBody} = data.buttons[key];
+            const {buttonText, background, modalTitle, modalBody, video} = data.buttons[key];
 
             const buttonTitleElement = document.createElement('div');
             buttonTitleElement.classList.add('button-title');
@@ -45,7 +45,7 @@ class App {
             const modalBodyComposed = modalBody.split('+').join('</br></br>');
 
             buttonElement.addEventListener('click', () => {
-                this.setModalContent(modalTitle, modalBodyComposed, background);
+                this.setModalContent(modalTitle, modalBodyComposed, background, video);
                 this.openModal();
             });
 
@@ -71,12 +71,16 @@ class App {
         this.buttonsContainer.classList.add('visible');
     }
 
-    setModalContent(title, body, image) {
+    setModalContent(title, body, image, video) {
         const composedModalTitle = title.split('+').join('</br>');
 
         this.modalTitle.innerHTML = composedModalTitle;
         this.modalBody.innerHTML = body;
-        this.modalImage.style.backgroundImage = `url(${image})`;
+        if (video) {
+            this.modalImage.innerHTML = video;
+        } else {
+            this.modalImage.style.backgroundImage = `url(${image})`;
+        }
     }
 }
 
