@@ -98,6 +98,15 @@ body {
     align-items: center;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    transform: rotate(-2deg);
+}
+
+#root .button:nth-child(2n) {
+    animation: moving 5s ease-in-out infinite;
+}
+
+#root .button:nth-child(2n+1) {
+    animation: moving 5s 1s ease-in-out infinite;
 }
 
 #root .button .button-title {
@@ -120,7 +129,7 @@ body {
 }
 
 #root .modal .image {
-    height: 250px;
+    height: 220px;
     background-size: cover;
     background-position: center;
     margin: auto;
@@ -131,4 +140,16 @@ body {
     font-size: 40px;
     text-align: center;
     margin-bottom: 60px;
+}
+
+@keyframes moving {
+    0% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    100% {
+        transform: rotate(-2deg);
+    }
 }
