@@ -34,7 +34,8 @@ class App {
 
             const buttonTitleElement = document.createElement('div');
             buttonTitleElement.classList.add('button-title');
-            buttonTitleElement.innerHTML = buttonText;
+            const buttonTextComposed = buttonText.split('+').join('</br>');
+            buttonTitleElement.innerHTML = buttonTextComposed;
 
             const buttonElement = document.createElement('div');
             buttonElement.classList.add('button');

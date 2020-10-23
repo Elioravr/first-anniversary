@@ -8,7 +8,7 @@ const data = {
         },
         "2": {
             "background": "images/Dance_0007.jpeg",
-            "buttonText": "אני בעלך! מה זה אומר?!",
+            "buttonText": "אני בעלך!+מה זה אומר?!",
             "modalTitle": "זאת אפליקציה לכבודך",
             "modalBody": "כי אני אוהב אותך מאוד"
         },
