@@ -77,9 +77,11 @@ class App {
         this.modalTitle.innerHTML = composedModalTitle;
         this.modalBody.innerHTML = body;
         if (video) {
+            this.modalImage.style.backgroundImage = "";
             this.modalImage.innerHTML = video;
         } else {
             this.modalImage.style.backgroundImage = `url(${image})`;
+            this.modalImage.innerHTML = "";
         }
     }
 }
